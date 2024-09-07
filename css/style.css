@@ -414,52 +414,59 @@ a{
 
 }
 /* Ширина 375px і менше */
+/* Ширина 375px і менше */
 @media screen and (max-width: 375px) {
 
-.header {
-    padding: 40px 20px;
-}
-
-.content__title {
-    font-size: 1.5rem;
-    line-height: 1.3;
-}
-
-.content__description {
-    margin-bottom: 30px;
-    font-size: 0.875rem;
-}
-
-.content__link {
-    min-width: 150px;
-    min-height: 50px;
-    font-size: 0.75rem;
-}
-
-.experience-item{
-    width: 50%;
-}
-
-.experience-item__number{
-    font-size: 1rem;
-}
-
-.video__iframe {
-    height: 200px;
-}
-
-.footer {
-    padding: 20px;
-}
-
-.footer__name {
-    font-size: 1rem;
-}
-
-.footer__copyright {
-    font-size: 0.65rem;
-}
-
-}
+    .header {
+        padding: 40px 20px;
+    }
+    
+    .content__title {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .content__description {
+        margin-bottom: 30px;
+        font-size: 0.875rem;
+    }
+    
+    .content__link {
+        min-width: 150px;
+        min-height: 50px;
+        font-size: 0.75rem;
+    }
+    
+    .experience__container {
+        gap: var(--gap-sm);
+        justify-content: center; /* Центрування елементів */
+    }
+    
+    .experience-item {
+        width: 50%;
+    }
+    
+    .experience-item__number{
+        font-size: 1rem;
+    }
+    
+    .video__iframe {
+        height: 200px;
+    }
+    
+    .footer {
+        padding: 20px;
+    }
+    
+    .footer__name {
+        font-size: 1rem;
+    }
+    
+    .footer__copyright {
+        font-size: 0.65rem;
+    }
+    
+    }
+    
 
 
