@@ -1,0 +1,47 @@
+@import "variable";
+
+@mixin section ($padding-bottom: 90px){
+    padding-top: 112px;
+    padding-bottom: $padding-bottom;
+    background-color: $color-light;
+}
+
+@mixin section_title {
+    color: $color-black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 39px;
+}
+
+@mixin section_description{
+    line-height: $line-height-lg;
+    color: $color-secondary;
+    text-align: center;
+}
+
+// about
+.about{
+    @include section
+}
+
+.about__title{
+    @include section_title
+}
+
+.about__description{
+    @include section_description
+}
+
+/* process */
+.process{
+    @include section (50px)
+}
+
+.process__title{
+    @include section_title
+}
+
+.process__description{
+    @include section_description
+}
